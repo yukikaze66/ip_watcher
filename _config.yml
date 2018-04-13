@@ -3,3 +3,4 @@ port: 5000
 title: 运维服务部
 email: 65031141@ynu.edu.cn
 
+exclude: ["gear"]
