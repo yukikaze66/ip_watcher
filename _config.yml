@@ -3,4 +3,11 @@ port: 5000
 title: 运维服务部
 email: 65031141@ynu.edu.cn
 
-exclude: ["gear"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
