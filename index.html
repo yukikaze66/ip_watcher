@@ -1,0 +1,55 @@
+--- 
+layout: index
+---
+
+<div>&nbsp;</div>
+
+<div class="jumbotron">
+    <h1 class="display-4">便民导航</h1>
+    <p class="lead">本页面旨在方便老师和同学方便地访问我们学校的各种应用系统</p>
+
+    <p class="text-justify">可以通过<code>CTRL</code>+<code>F</code>进行搜索</p>
+
+    <hr class="display-4">
+
+    <p>本页面所列出的各个应用系统均为志愿者手工收集。</p>
+    <p><a href="mailto:65031141@ynu.edu.cn?subject=便民导航申诉" class="btn btn-danger">申&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;诉</a> &nbsp; 如果本页面收集的系统入口有错误，或者侵犯了您</p>
+    <p><a href="mailto:65031141@ynu.edu.cn?subject=便民导航修改建议" class="btn btn-info">修改建议</a> &nbsp; 如果您发现被我们遗漏了的应用系统，或者您愿意帮助我们做得更好</p>
+
+    <p>
+        <span class="label label-info">数据集成API</span>
+        &nbsp;
+        <span class="btn-group btn-group-sm" role="group" aria-label="数据集成">
+            <a class="btn btn-secondary" href="/data.json" target="_blank">JSON</a>
+            <a class="btn btn-secondary" href="/data.xml" target="_blank">XML</a>
+        </span>
+    </p>
+</div>
+
+
+<table class="table" >
+    <thead>
+        <th scope="col">#</th>
+        <th scope="col">系统名称</th>
+        <th scope="col">点击进入</th>
+        <th scope="col" hidden>服务对象</th>
+        <th scope="col" hidden>所属部门</th>
+        <th scope="col" hidden>服务电话</th>
+        <th scope="col" hidden>支持平台</th>
+    </thead>
+
+    <tbody>
+        {% for app in site.data.app_list %}
+            <tr>
+                <th scope="row">{{ forloop.index }}</th>
+                <td>{{ app.name }}</td>
+                <td><a class="btn btn-info" href="{{ app.url }}" role="button">点击进入</a></td>
+                <td hidden>{{ app.target_users }}</td>
+                <td hidden>{{ app.belonging_department }}</td>
+                <td hidden>{{ app.contact_number }}</td>
+                <td hidden>{{ app.supported_platforms }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+    
+</table>

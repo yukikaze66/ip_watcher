@@ -1,0 +1,17 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app_list>
+    {% for app in site.data.app_list %}
+        <app>
+            <name>{{ app.name }}</name>
+            <url>{{ app.url }}</url>
+            <target_users>{{ app.target_users }}</target_users>
+            <belonging_department>{{ app.belonging_department }}</belonging_department>
+            <contact_number>{{ app.contact_number }}</contact_number>
+            <supported_platforms>{{ app.supported_platforms }}</supported_platforms>
+        </app>
+    {% endfor %}
+</app_list>
