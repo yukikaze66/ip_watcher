@@ -1,0 +1,29 @@
+- name: CG-QY2D-C206_2928_178
+  ip: 10.191.54.47
+  position: 楸苑二栋（C206机房）
+  type: ZXR10 2928
+  latency: 0.1
+
+- name: CG-QY2D-C206_2928_178
+  ip: 10.191.54.47
+  position: 楸苑二栋（C206机房）
+  type: ZXR10 2928
+  latency: 0.5
+
+- name: CG-QY2D-C206_2928_178
+  ip: 10.191.54.47
+  position: 楸苑二栋（C206机房）
+  type: ZXR10 2928
+  latency: 0.5
+
+- name: CG-QY2D-C206_2928_178
+  ip: 10.191.54.47
+  position: 楸苑二栋（C206机房）
+  type: ZXR10 2928
+  latency: 0.5
+
+- name: CG-QY2D-C206_2928_178
+  ip: 10.191.54.47
+  position: 楸苑二栋（C206机房）
+  type: ZXR10 2928
+  latency: 10
