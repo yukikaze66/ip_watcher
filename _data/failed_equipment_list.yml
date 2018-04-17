@@ -5,6 +5,12 @@
   type:  RJ-2628G
   campus: cg
 
+- name: CG-XSHT-IDF2_2628_201
+  ip: 10.191.57.195
+  position: 学生会堂
+  type:  RJ-2628G
+  campus: cg
+
 - name: CG-MYL-CWC-HW5700
   ip: 10.191.57.184
   position: 明远楼
@@ -23,3 +29,14 @@
   type:  ZXR10 2928
   campus: cg
 
+- name: CG-SMKXY-3103_5952_18
+  ip: 10.191.51.19
+  position: 生科院
+  type:  None
+  campus: cg
+
+- name: CG-LXL-WLZX-2105_5928_01
+  ip: 10.191.51.2
+  position: 礼贤楼
+  type:  None
+  campus: cg
