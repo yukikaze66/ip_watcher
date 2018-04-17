@@ -65,6 +65,12 @@
   type:  RJ-2652G
   campus: cg
 
+- name: CG-YWT-2F_2652_176
+  ip: 10.191.53.135
+  position: 余味堂
+  type:  RJ2652G
+  campus: cg
+
 - name: CG-XXXY-SXJM-2628
   ip: 10.191.57.168
   position: 信息学院
@@ -383,18 +389,6 @@
   type:  RJ-2652G
   campus: cg
 
-- name: CG-XSHT-MDF_2652_199
-  ip: 10.191.57.193
-  position: 学生会堂
-  type:  RJ-2652G
-  campus: cg
-
-- name: CG-XSHT-MDF_2652_198
-  ip: 10.191.57.192
-  position: 学生会堂
-  type:  RJ-2652G
-  campus: cg
-
 - name: CG-XSHT-MDF_5952_24
   ip: 10.191.51.23
   position: 学生会堂
@@ -410,6 +404,12 @@
 - name: CG-XSHT-MDF_2652_200
   ip: 10.191.57.194
   position: 学生会堂
+  type:  RJ-2652G
+  campus: cg
+
+- name: CG-XSHDZX-3F_2652_167
+  ip: 10.191.55.176
+  position: 学生活动中心
   type:  RJ-2652G
   campus: cg
 
@@ -641,22 +641,10 @@
   type:  RJ-2652G
   campus: cg
 
-- name: CG-MYL-HZL-4_2652_192
-  ip: 10.191.57.186
-  position: 明远楼
-  type:  RJ-2652G
-  campus: cg
-
-- name: CG-MYL-HZL-4_2652_193
-  ip: 10.191.57.187
-  position: 明远楼
-  type:  RJ-2652G
-  campus: cg
-
-- name: CG-MYL-HZL-4_2652_191
-  ip: 10.191.57.185
-  position: 明远楼
-  type:  RJ-2652G
+- name: CG-GWL2D-2312_2628_063
+  ip: 10.191.57.64
+  position: 格物楼2栋
+  type:  RJ-2628G
   campus: cg
 
 - name: CG-HY1D-A_2928_430
@@ -779,18 +767,6 @@
   type:  ZXR10 2928
   campus: cg
 
-- name: CG-HY1D-A_2928_426
-  ip: 10.191.56.9
-  position: 桦苑一栋A区机房
-  type:  ZXR10 2928
-  campus: cg
-
-- name: CG-HY1D-B_2928_446
-  ip: 10.191.56.29
-  position: 桦苑一栋B区机房
-  type:  ZXR10 2928
-  campus: cg
-
 - name: CG-HY1D-B_2928_445
   ip: 10.191.56.28
   position: 桦苑一栋B区机房
@@ -809,6 +785,12 @@
   type:  ZXR10 2952
   campus: cg
 
+- name: CG-HY1D-B_2952_457
+  ip: 10.191.56.40
+  position: 桦苑一栋B区机房
+  type:  ZXR10 2952
+  campus: cg
+
 - name: CG-HY1D-B_2952_460
   ip: 10.191.56.43
   position: 桦苑一栋B区机房
@@ -823,6 +805,18 @@
 
 - name: CG-HY1D-B_2952_461
   ip: 10.191.56.44
+  position: 桦苑一栋B区机房
+  type:  ZXR10 2952
+  campus: cg
+
+- name: CG-HY1D-B_2928_447
+  ip: 10.191.56.30
+  position: 桦苑一栋B区机房
+  type:  ZXR10 2928
+  campus: cg
+
+- name: CG-HY1D-B_2952_456
+  ip: 10.191.56.39
   position: 桦苑一栋B区机房
   type:  ZXR10 2952
   campus: cg
@@ -1061,10 +1055,10 @@
   type:  RJ2652
   campus: cg
 
-- name: CG-ZY1D-C201_2952_007
-  ip: 10.191.53.8
+- name: CG-ZY1D-C201_2928_004
+  ip: 10.191.53.5
   position: 梓苑一栋（C201机房）
-  type:  ZXR10 2952
+  type:  ZXR10 2928
   campus: cg
 
 - name: CG-ZY1D-C201_2952_014
@@ -1073,20 +1067,8 @@
   type:  ZXR10 2952
   campus: cg
 
-- name: CG-ZY1D-C201_2952_013
-  ip: 10.191.53.14
-  position: 梓苑一栋（C201机房）
-  type:  ZXR10 2952
-  campus: cg
-
 - name: CG-ZY1D-C201_2952_015
   ip: 10.191.53.16
-  position: 梓苑一栋（C201机房）
-  type:  ZXR10 2952
-  campus: cg
-
-- name: CG-ZY1D-C201_2952_010
-  ip: 10.191.53.11
   position: 梓苑一栋（C201机房）
   type:  ZXR10 2952
   campus: cg
@@ -1191,12 +1173,6 @@
   ip: 10.191.53.23
   position: 梓苑一栋（C206机房）
   type:  ZXR10 2952
-  campus: cg
-
-- name: CG-ZY1D-C206_5928E_002
-  ip: 10.191.48.3
-  position: 梓苑一栋（C206机房）
-  type:  None
   campus: cg
 
 - name: CG-ZY1D-C201_2952_029
@@ -1307,10 +1283,22 @@
   type:  ZXR10 2952
   campus: cg
 
-- name: CG-ZY3D-C206_2952_088
-  ip: 10.191.53.89
+- name: CG-ZY3D-C206_2928_081
+  ip: 10.191.53.82
+  position: 梓苑三栋（C206机房)
+  type:  ZXR10 2928
+  campus: cg
+
+- name: CG-ZY3D-C206_2952_086
+  ip: 10.191.53.87
   position: 梓苑三栋（C206机房)
   type:  ZXR10 2952
+  campus: cg
+
+- name: CG-ZY3D-C206_2928_083
+  ip: 10.191.53.84
+  position: 梓苑三栋（C206机房)
+  type:  ZXR10 2928
   campus: cg
 
 - name: CG-ZY3D-C206_2952_094
@@ -1643,6 +1631,12 @@
   type:  None
   campus: cg
 
+- name: CG-ZY4D-C206_2952_124
+  ip: 10.191.53.125
+  position: 梓苑四栋（C206机房)
+  type:  ZXR10 2952
+  campus: cg
+
 - name: CG-ZY4D-C206_2928_118
   ip: 10.191.53.119
   position: 梓苑四栋（C206机房)
@@ -1653,12 +1647,6 @@
   ip: 10.191.53.118
   position: 梓苑四栋（C206机房)
   type:  ZXR10 2928
-  campus: cg
-
-- name: CG-ZY4D-C206_5928E_008
-  ip: 10.191.48.9
-  position: 梓苑四栋（C206机房)
-  type:  None
   campus: cg
 
 - name: CG-ZY4D-C206_2952_132
@@ -1691,26 +1679,38 @@
   type:  RJ-2652G
   campus: cg
 
-- name: CG-NY1D-A323_2928_255
-  ip: 10.191.55.10
+- name: CG-NY1D-A323_2928_256
+  ip: 10.191.55.11
   position: 楠苑一栋（A323机房）
   type:  ZXR10 2928
   campus: cg
 
-- name: CG-NY1D-A323_2928_260
-  ip: 10.191.55.15
+- name: CG-NY1D-A323_2952_263
+  ip: 10.191.55.17
   position: 楠苑一栋（A323机房）
-  type:  ZXR10 2928
+  type:  ZXR10 2952
   campus: cg
 
-- name: CG-NY1D-A323_2928_251
-  ip: 10.191.55.6
+- name: CG-NY1D-A323_2952_262
+  ip: 10.191.55.16
   position: 楠苑一栋（A323机房）
-  type:  ZXR10 2928
+  type:  ZXR10 2952
   campus: cg
 
 - name: CG-NY1D-A323_2928_250
   ip: 10.191.55.5
+  position: 楠苑一栋（A323机房）
+  type:  ZXR10 2928
+  campus: cg
+
+- name: CG-NY1D-A323_2928_249
+  ip: 10.191.55.4
+  position: 楠苑一栋（A323机房）
+  type:  ZXR10 2928
+  campus: cg
+
+- name: CG-NY1D-A323_2928_248
+  ip: 10.191.55.3
   position: 楠苑一栋（A323机房）
   type:  ZXR10 2928
   campus: cg
@@ -2081,6 +2081,12 @@
   type:  ZXR10 2952
   campus: cg
 
+- name: CG-NY3D-B315_2952_341
+  ip: 10.191.55.96
+  position: 楠苑三栋（B315机房）
+  type:  ZXR10 2952
+  campus: cg
+
 - name: CG-NY3D-B315_2952_340
   ip: 10.191.55.95
   position: 楠苑三栋（B315机房）
@@ -2109,6 +2115,12 @@
   ip: 10.191.55.47
   position: 楠苑二栋（B311机房）
   type:  ZXR10 2928
+  campus: cg
+
+- name: CG-NY2D_B311_5928E_019
+  ip: 10.191.48.20
+  position: 楠苑二栋（B311机房）
+  type:  None
   campus: cg
 
 - name: CG-NY2D-C301_2952_307
@@ -2219,24 +2231,6 @@
   type:  ZXR10 2952
   campus: cg
 
-- name: CG-NY5D-B315_2952_413
-  ip: 10.191.55.169
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2952
-  campus: cg
-
-- name: CG-NY5D-B315_2952_411
-  ip: 10.191.55.167
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2952
-  campus: cg
-
-- name: CG-NY5D-B315_2928_409
-  ip: 10.191.55.164
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2928
-  campus: cg
-
 - name: CG-NY5D-B315_2928_407
   ip: 10.191.55.162
   position: 楠苑五栋（B315机房）
@@ -2297,24 +2291,6 @@
   type:  ZXR10 2952
   campus: cg
 
-- name: CG-NY5D-B315_2952_414
-  ip: 10.191.55.170
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2952
-  campus: cg
-
-- name: CG-NY5D-B315_2928_405
-  ip: 10.191.55.160
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2928
-  campus: cg
-
-- name: CG-NY5D-B315_2928_406
-  ip: 10.191.55.161
-  position: 楠苑五栋（B315机房）
-  type:  ZXR10 2928
-  campus: cg
-
 - name: CG-NY4D-A315_2952_360
   ip: 10.191.55.115
   position: 楠苑四栋（A315机房）
@@ -2351,6 +2327,18 @@
   type:  None
   campus: cg
 
+- name: CG-NY4D-A315_2928_345
+  ip: 10.191.55.100
+  position: 楠苑四栋（A315机房）
+  type:  ZXR10 2928
+  campus: cg
+
+- name: CG-NY4D-A315_2928_346
+  ip: 10.191.55.101
+  position: 楠苑四栋（A315机房）
+  type:  ZXR10 2928
+  campus: cg
+
 - name: CG-NY4D-A315_2928_344
   ip: 10.191.55.99
   position: 楠苑四栋（A315机房）
@@ -2377,12 +2365,6 @@
 
 - name: CG-NY4D-A315_2952_351
   ip: 10.191.55.106
-  position: 楠苑四栋（A315机房）
-  type:  ZXR10 2952
-  campus: cg
-
-- name: CG-NY4D-A315_2952_352
-  ip: 10.191.55.107
   position: 楠苑四栋（A315机房）
   type:  ZXR10 2952
   campus: cg
@@ -2531,12 +2513,6 @@
   type:  ZXR10 2952
   campus: cg
 
-- name: CG-QY1D-C201_2928_135
-  ip: 10.191.54.4
-  position: 楸苑一栋（C201机房）
-  type:  ZXR10 2928
-  campus: cg
-
 - name: CG-QY1D-C201_2952_136
   ip: 10.191.54.5
   position: 楸苑一栋（C201机房）
@@ -2649,6 +2625,12 @@
   ip: 10.191.48.11
   position: 楸苑一栋（C206机房）
   type:  None
+  campus: cg
+
+- name: CG-QY3D-C201_2952_204
+  ip: 10.191.54.73
+  position: 楸苑三栋（C201机房）
+  type:  ZXR10 2952
   campus: cg
 
 - name: CG-QY3D-C201_2928_192
@@ -2915,16 +2897,10 @@
   type:  ZXR10 2928
   campus: cg
 
-- name: CG-QY4D-C201_2952_229
-  ip: 10.191.54.98
+- name: CG-QY4D-C201_2952_226
+  ip: 10.191.54.95
   position: 楸苑四栋（C201机房）
   type:  ZXR10 2952
-  campus: cg
-
-- name: CG-QY4D-C201_2928_223
-  ip: 10.191.54.92
-  position: 楸苑四栋（C201机房）
-  type:  ZXR10 2928
   campus: cg
 
 - name: CG-QY4D-C201_2952_232
@@ -3055,6 +3031,12 @@
 
 - name: CG-WKXY-1312_2652_095
   ip: 10.191.57.96
+  position: 物科学院
+  type:  RJ-2652G
+  campus: cg
+
+- name: CG-WKXY-3310_2652_098
+  ip: 10.191.57.99
   position: 物科学院
   type:  RJ-2652G
   campus: cg
@@ -3237,6 +3219,12 @@
   ip: 10.191.57.140
   position: 观山苑（校医院）
   type:  RJ-2628G
+  campus: cg
+
+- name: CG-ZHXY-1208_5928_17
+  ip: 10.191.51.18
+  position: 资环学院
+  type:  None
   campus: cg
 
 - name: CG-ZHXY-1208_2652_118

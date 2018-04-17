@@ -5,6 +5,9 @@
 - position: 人文学院
   intact: False
 
+- position: 余味堂
+  intact: False
+
 - position: 信息学院
   intact: False
 
@@ -45,6 +48,9 @@
   intact: False
 
 - position: 明远楼
+  intact: False
+
+- position: 格物楼2栋
   intact: False
 
 - position: 桦苑一栋A区机房
@@ -170,9 +176,6 @@
 - position: 软件学院
   intact: False
 
-- position: 余味堂
-  intact: True
-
 - position: 停车场(格物楼)
   intact: True
 
@@ -180,9 +183,6 @@
   intact: True
 
 - position: 格物楼1栋
-  intact: True
-
-- position: 格物楼2栋
   intact: True
 
 - position: 知味堂
