@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 git pull
 sudo -H pip install -r gear/requirements.txt
