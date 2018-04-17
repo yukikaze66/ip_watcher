@@ -3,6 +3,7 @@
 
 import yaml
 from multiping import multi_ping
+from multiping import MultiPing
 from functools import reduce
 
 def load_equipment_list(file_name):
@@ -62,7 +63,13 @@ def do_ping_test(eq_list, timeout):
 
     ip_list = ip_eq_map.keys()
 
-    no_results = multi_ping(ip_list, timeout, 3)[1]
+    # no_results = multi_ping(ip_list, timeout, 3)[1]
+    
+    no_results = ip_list
+    for i in range(10):
+        mp = MultiPing(no_results)
+        mp.send()
+        no_results = mp.receive(3)[1]
 
     failed_eq_list = []
     for ip in no_results:
