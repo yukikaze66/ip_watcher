@@ -53,6 +53,9 @@
 - position: 明远楼
   intact: False
 
+- position: 明远楼财务处（礼贤楼2203内）
+  intact: False
+
 - position: 格物楼1栋
   intact: False
 
@@ -176,6 +179,9 @@
 - position: 艺术学院
   intact: False
 
+- position: 观山苑（校医院）
+  intact: False
+
 - position: 资环学院
   intact: False
 
@@ -184,9 +190,3 @@
 
 - position: 风雨操场
   intact: False
-
-- position: 明远楼财务处（礼贤楼2203内）
-  intact: True
-
-- position: 观山苑（校医院）
-  intact: True
