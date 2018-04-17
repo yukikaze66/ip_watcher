@@ -65,6 +65,8 @@ def do_ping_test(eq_list, timeout):
 
     ip_list = ip_eq_map.keys()
 
+    pdb.set_trace()
+
     no_results = multi_ping(ip_list, timeout, 3)[1]
 
     failed_eq_list = []
