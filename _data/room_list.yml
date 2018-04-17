@@ -5,7 +5,6 @@
 - position: 明远楼
   intact: False
 
-<<<<<<< HEAD
 - position: 桦苑一栋B区机房
   intact: False
 
@@ -30,23 +29,15 @@
 - position: 停车场(格物楼)
   intact: True
 
-=======
-- position: 信息学院
-  intact: False
-
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 公管学院
   intact: True
 
-<<<<<<< HEAD
 - position: 力行楼
   intact: True
 
 - position: 化工学院
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 后勤综合楼
   intact: True
 
@@ -59,25 +50,18 @@
 - position: 外语学院
   intact: True
 
-<<<<<<< HEAD
 - position: 学生活动中心
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 敬宾楼
   intact: True
 
-<<<<<<< HEAD
 - position: 敬宾楼（公安处）
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 文汇楼
   intact: True
 
-<<<<<<< HEAD
 - position: 明远楼财务处（礼贤楼2203内）
   intact: True
 
@@ -87,8 +71,6 @@
 - position: 格物楼2栋
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 桦苑一栋A区机房
   intact: True
 
@@ -113,33 +95,24 @@
 - position: 梓苑二栋（C201机房)
   intact: True
 
-<<<<<<< HEAD
 - position: 梓苑二栋（C206机房)
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 梓苑四栋（C201机房)
   intact: True
 
 - position: 梓苑四栋（C206机房)
   intact: True
 
-<<<<<<< HEAD
 - position: 梓苑超市
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 楠苑一栋（A323机房）
   intact: True
 
-<<<<<<< HEAD
 - position: 楠苑一栋（D315机房）
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 楠苑三栋（A315机房）
   intact: True
 
@@ -170,19 +143,15 @@
 - position: 楸苑一栋（C206机房）
   intact: True
 
-<<<<<<< HEAD
 - position: 楸苑三栋（C201机房）
   intact: True
 
-=======
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
 - position: 楸苑三栋（C206机房）
   intact: True
 
 - position: 楸苑二栋（C201机房）
   intact: True
 
-<<<<<<< HEAD
 - position: 楸苑二栋（C206机房）
   intact: True
 
@@ -211,81 +180,6 @@
   intact: True
 
 - position: 观山苑（校医院）
-=======
-- position: 生科院
-  intact: False
-
-- position: 礼贤楼
-  intact: False
-
-- position: 职技学院
-  intact: False
-
-- position: 观山苑（校医院）
-  intact: False
-
-- position: 余味堂
-  intact: True
-
-- position: 停车场(格物楼)
-  intact: True
-
-- position: 力行楼
-  intact: True
-
-- position: 化工学院
-  intact: True
-
-- position: 学生活动中心
-  intact: True
-
-- position: 敬宾楼（公安处）
-  intact: True
-
-- position: 明远楼财务处（礼贤楼2203内）
-  intact: True
-
-- position: 格物楼1栋
-  intact: True
-
-- position: 格物楼2栋
-  intact: True
-
-- position: 梓苑二栋（C206机房)
-  intact: True
-
-- position: 梓苑超市
-  intact: True
-
-- position: 楠苑一栋（D315机房）
-  intact: True
-
-- position: 楸苑三栋（C201机房）
-  intact: True
-
-- position: 楸苑二栋（C206机房）
-  intact: True
-
-- position: 楸苑四栋（C201机房）
-  intact: True
-
-- position: 楸苑四栋（C206机房）
-  intact: True
-
-- position: 法学院
-  intact: True
-
-- position: 物科学院
-  intact: True
-
-- position: 知味堂
-  intact: True
-
-- position: 经济学院
-  intact: True
-
-- position: 艺术学院
->>>>>>> 8e8c44093261fe50db73aa212c881fc8e3116390
   intact: True
 
 - position: 资环学院

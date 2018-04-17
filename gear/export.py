@@ -51,9 +51,6 @@ def init_equipment_list(data_list):
 
 def do_ping_test(eq_list, timeout):
 
-    import pdb
-    pdb.set_trace()
-
     ip_eq_map = {}
     for eq in eq_list:
         ip_eq_map[eq.ip] = eq
@@ -72,7 +69,7 @@ def do_ping_test(eq_list, timeout):
     for i in range(10):
         mp = MultiPing(no_results)
         mp.send()
-        no_results = mp.receive(3)[1]
+        no_results = mp.receive(1)[1]
 
     failed_eq_list = []
     for ip in no_results:
