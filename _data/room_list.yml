@@ -11,6 +11,9 @@
 - position: 信息学院
   intact: False
 
+- position: 停车场(格物楼)
+  intact: False
+
 - position: 公管学院
   intact: False
 
@@ -48,6 +51,12 @@
   intact: False
 
 - position: 明远楼
+  intact: False
+
+- position: 明远楼财务处（礼贤楼2203内）
+  intact: False
+
+- position: 格物楼1栋
   intact: False
 
 - position: 格物楼2栋
@@ -155,6 +164,9 @@
 - position: 生科院
   intact: False
 
+- position: 知味堂
+  intact: False
+
 - position: 礼贤楼
   intact: False
 
@@ -175,18 +187,6 @@
 
 - position: 软件学院
   intact: False
-
-- position: 停车场(格物楼)
-  intact: True
-
-- position: 明远楼财务处（礼贤楼2203内）
-  intact: True
-
-- position: 格物楼1栋
-  intact: True
-
-- position: 知味堂
-  intact: True
 
 - position: 风雨操场
   intact: True
