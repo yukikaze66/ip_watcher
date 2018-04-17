@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
-
 import yaml
 from multiping import multi_ping
 from functools import reduce
@@ -144,6 +140,8 @@ if __name__ == '__main__':
 
     room_list_yaml_str = room_list_to_yaml(room_list)
     failed_equipment_list_yaml_str = failed_equipment_list_to_yaml(failed_eq_list)
+
+    print(failed_equipment_list_yaml_str)
 
     failed_equipment_list_file_name = './_data/failed_equipment_list.yml'
     room_list_file_name = './_data/room_list.yml'
