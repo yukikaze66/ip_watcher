@@ -2,16 +2,7 @@
 - position: 中山邦翰楼
   intact: False
 
-- position: 人文学院
-  intact: False
-
-- position: 余味堂
-  intact: False
-
 - position: 信息学院
-  intact: False
-
-- position: 停车场(格物楼)
   intact: False
 
 - position: 公管学院
@@ -36,9 +27,6 @@
   intact: False
 
 - position: 学生会堂
-  intact: False
-
-- position: 学生活动中心
   intact: False
 
 - position: 敬宾楼
@@ -83,22 +71,13 @@
 - position: 梓苑三栋（C201机房)
   intact: False
 
-- position: 梓苑三栋（C206机房)
-  intact: False
-
 - position: 梓苑二栋（C201机房)
-  intact: False
-
-- position: 梓苑二栋（C206机房)
   intact: False
 
 - position: 梓苑四栋（C201机房)
   intact: False
 
 - position: 梓苑四栋（C206机房)
-  intact: False
-
-- position: 梓苑超市
   intact: False
 
 - position: 楠苑一栋（A323机房）
@@ -111,12 +90,6 @@
   intact: False
 
 - position: 楠苑三栋（B315机房）
-  intact: False
-
-- position: 楠苑二栋（B311机房）
-  intact: False
-
-- position: 楠苑二栋（C301机房）
   intact: False
 
 - position: 楠苑五栋（A315机房）
@@ -137,22 +110,13 @@
 - position: 楸苑一栋（C206机房）
   intact: False
 
-- position: 楸苑三栋（C201机房）
-  intact: False
-
 - position: 楸苑三栋（C206机房）
   intact: False
 
 - position: 楸苑二栋（C201机房）
   intact: False
 
-- position: 楸苑二栋（C206机房）
-  intact: False
-
 - position: 楸苑四栋（C201机房）
-  intact: False
-
-- position: 楸苑四栋（C206机房）
   intact: False
 
 - position: 法学院
@@ -164,19 +128,7 @@
 - position: 生科院
   intact: False
 
-- position: 知味堂
-  intact: False
-
 - position: 礼贤楼
-  intact: False
-
-- position: 经济学院
-  intact: False
-
-- position: 职技学院
-  intact: False
-
-- position: 艺术学院
   intact: False
 
 - position: 观山苑（校医院）
@@ -188,5 +140,53 @@
 - position: 软件学院
   intact: False
 
+- position: 人文学院
+  intact: True
+
+- position: 余味堂
+  intact: True
+
+- position: 停车场(格物楼)
+  intact: True
+
+- position: 学生活动中心
+  intact: True
+
+- position: 梓苑三栋（C206机房)
+  intact: True
+
+- position: 梓苑二栋（C206机房)
+  intact: True
+
+- position: 梓苑超市
+  intact: True
+
+- position: 楠苑二栋（B311机房）
+  intact: True
+
+- position: 楠苑二栋（C301机房）
+  intact: True
+
+- position: 楸苑三栋（C201机房）
+  intact: True
+
+- position: 楸苑二栋（C206机房）
+  intact: True
+
+- position: 楸苑四栋（C206机房）
+  intact: True
+
+- position: 知味堂
+  intact: True
+
+- position: 经济学院
+  intact: True
+
+- position: 职技学院
+  intact: True
+
+- position: 艺术学院
+  intact: True
+
 - position: 风雨操场
-  intact: False
+  intact: True
