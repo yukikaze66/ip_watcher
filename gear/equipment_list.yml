@@ -4162,12 +4162,6 @@
   type:  RJ-2628G
   campus: cg
 
-- name: CG-HGXY-3104_2628_164
-  ip: 10.191.57.165
-  position: 化工学院
-  type:  RJ-2628G
-  campus: cg
-
 - name: CG-XSHDZX-3F_2652_165
   ip: 10.191.55.174
   position: 学生活动中心
