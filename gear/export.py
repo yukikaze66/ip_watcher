@@ -62,14 +62,12 @@ def do_ping_test(eq_list, timeout):
         position_room_map[position] = Room(position)
 
     ip_list = ip_eq_map.keys()
-
-    # no_results = multi_ping(ip_list, timeout, 3)[1]
     
     no_results = ip_list
-    for i in range(10):
+    for i in range(5):
         mp = MultiPing(no_results)
         mp.send()
-        no_results = mp.receive(1)[1]
+        no_results = mp.receive(10)[1]
 
     failed_eq_list = []
     for ip in no_results:
