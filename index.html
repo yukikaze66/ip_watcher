@@ -38,9 +38,9 @@ layout: null
                 {% for equipment in site.data.failed_equipment_list %}
                     <tr>
                         <th scope="row">{{ forloop.index }}</th>
-                        <td><button class="btn btn-warning btn-sm">{{ equipment.position }}</button></td>
-                        <td><button class="btn btn-danger btn-sm">{{ equipment.name }}</button></td>
-                        <td><button class="btn btn-info btn-sm">{{ equipment.ip }}; {{ equipment.type }}</button></td>
+                        <td><button class="btn btn-warning">{{ equipment.position }}</button></td>
+                        <td><button class="btn btn-danger">{{ equipment.name }}</button></td>
+                        <td><button class="btn btn-info">{{ equipment.ip }}; {{ equipment.type }}</button></td>
                     </tr>
                 {% endfor %}
             </tbody>
@@ -53,9 +53,9 @@ layout: null
         <div class="fluid">
             {% for room in site.data.room_list %} 
                 {% if room.intact %}
-                    <button class="btn btn-success mt-1 btn-sm">{{ room.position }}</button> 
+                    <button class="btn btn-success mt-1">{{ room.position }}</button> 
                 {% else %}
-                    <button class="btn btn-warning mt-1 btn-sm">{{ room.position }}</button> 
+                    <button class="btn btn-warning mt-1">{{ room.position }}</button> 
                 {% endif %} 
             {% endfor %}
         </div>
