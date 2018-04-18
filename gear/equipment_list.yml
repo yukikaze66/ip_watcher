@@ -4312,12 +4312,6 @@
   type:  RJ-2652G
   campus: cg
 
-- name: CG-MYL-CWC-HW5700
-  ip: 10.191.57.184
-  position: 明远楼
-  type:  RJ-2652G
-  campus: cg
-
 - name: CG-MYL-HZL-4_2652_191
   ip: 10.191.57.185
   position: 明远楼
@@ -4376,12 +4370,6 @@
   ip: 10.191.57.194
   position: 学生会堂
   type:  RJ-2652G
-  campus: cg
-
-- name: CG-XSHT-IDF2_2628_201
-  ip: 10.191.57.195
-  position: 学生会堂
-  type:  RJ-2628G
   campus: cg
 
 - name: CG-LXL-WLZX-2105_5928_01
